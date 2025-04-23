@@ -1,0 +1,101 @@
+/* Reset & Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+    color: #333;
+    padding: 2rem;
+    line-height: 1.6;
+  }
+  
+  /* Container Styling */
+  main {
+    background-color: white;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Headings */
+  #title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #1f4037;
+    text-align: center;
+  }
+  
+  #description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #555;
+  }
+  
+  /* Form Elements */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  select,
+  textarea {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #1f4037;
+    outline: none;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 0;
+  }
+  
+  legend {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Checkboxes and Radios */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+    transform: scale(1.1);
+  }
+  
+  /* Button */
+  button#submit {
+    background-color: #1f4037;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button#submit:hover {
+    background-color: #14532d;
+  }
+  
